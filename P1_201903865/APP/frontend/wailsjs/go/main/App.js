@@ -13,3 +13,11 @@ export function Disk() {
 export function Greet(arg1) {
   return window['go']['main']['App']['Greet'](arg1);
 }
+
+export function ListUSB() {
+  return window['go']['main']['App']['ListUSB']();
+}
+
+export function Ram() {
+  return window['go']['main']['App']['Ram']();
+}

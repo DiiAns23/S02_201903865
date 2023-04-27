@@ -1,0 +1,15 @@
+[2023-04-23 20:00:35] - CREATE - /media/diians23/USB/Documento sin título
+[2023-04-23 20:00:40] - CREATE - /media/diians23/USB/prueba2.txt
+[2023-04-23 20:08:13] - CREATE - /media/diians23/USB/cambio de nombre.txt
+[2023-04-23 20:12:37] - CREATE - /media/diians23/USB/cambio.txt
+[2023-04-23 20:14:34] - REMOVE - /media/diians23/USB/cambio.txt
+[2023-04-23 20:15:33] - RENAME - /media/diians23/USB/prueba2.txt
+[2023-04-23 20:15:33] - CREATE - /media/diians23/USB/cambio de nombre.txt
+[2023-04-23 20:18:20] - CREATE - /media/diians23/USB/.cambio de nombre.txt.swp
+[2023-04-23 20:18:20] - WRITE - /media/diians23/USB/.cambio de nombre.txt.swp
+[2023-04-23 20:18:21] - REMOVE - /media/diians23/USB/.cambio de nombre.txt.swp
+[2023-04-23 20:18:21] - CREATE - /media/diians23/USB/.cambio de nombre.txt.swp
+[2023-04-23 20:18:21] - WRITE - /media/diians23/USB/.cambio de nombre.txt.swp
+[2023-04-23 20:18:27] - WRITE - /media/diians23/USB/cambio de nombre.txt
+[2023-04-23 20:18:27] - WRITE - /media/diians23/USB/cambio de nombre.txt
+[2023-04-23 20:18:27] - REMOVE - /media/diians23/USB/.cambio de nombre.txt.swp

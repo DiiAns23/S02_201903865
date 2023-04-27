@@ -3,10 +3,6 @@ package main
 import (
 	"context"
 	"fmt"
-	"time"
-
-	"github.com/shirou/gopsutil/cpu"
-	"github.com/shirou/gopsutil/disk"
 )
 
 // App struct
@@ -28,29 +24,4 @@ func (a *App) startup(ctx context.Context) {
 // Greet returns a greeting for the given name
 func (a *App) Greet(name string) string {
 	return fmt.Sprintf("Hello %s, It's show time!", name)
-}
-
-func (a *App) Cpu() float64 {
-	percent, err := cpu.Percent(time.Second, false)
-	if err != nil {
-		return 0
-	} else {
-		return percent[0]
-	}
-}
-
-func (a *App) Disk() [2]uint64 {
-
-	UsageStats, err := disk.Usage("/")
-	var values [2]uint64
-
-	if err != nil {
-		values[0] = 0
-		values[1] = 0
-		return values
-	}
-	values[0] = UsageStats.Free
-	values[1] = UsageStats.Used
-
-	return values
 }
